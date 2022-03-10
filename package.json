@@ -1,7 +1,7 @@
 {
   "name": "mfe-react",
   "version": "1.0.0",
-  "description": "React micro-frontend PoC with Webpack Module Federation, Lerna and Typescript",
+  "description": "React micro-frontend with MFE, Lerna and Typescript",
   "private": true,
   "workspaces": {
     "packages": [
