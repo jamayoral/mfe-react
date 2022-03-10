@@ -1,10 +1,11 @@
 import React from 'react'
+
 import { Box, Button } from '@mui/material'
 import { EventsMap } from 'nanoevents'
 
-import { LEFT_MFE_COLOR, LEFT_MFE_LABEL } from './constants'
-
 import Label from './components/Label'
+
+import { LEFT_MFE_COLOR, LEFT_MFE_LABEL } from './constants'
 
 interface Props {
   emitter: EventsMap

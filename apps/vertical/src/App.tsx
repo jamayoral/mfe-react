@@ -1,9 +1,10 @@
 import React from 'react'
+
 import { Box, Typography } from '@mui/material'
 
-import { VERTICAL_MFE_COLOR, VERTICAL_MFE_LABEL } from './constants'
-
 import Label from './components/Label'
+
+import { VERTICAL_MFE_COLOR, VERTICAL_MFE_LABEL } from './constants'
 
 const App = () => (
   <Box

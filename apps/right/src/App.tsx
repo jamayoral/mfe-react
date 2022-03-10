@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
+
 import { Box, Typography } from '@mui/material'
 import { EventsMap } from 'nanoevents'
 
-import { RIGHT_MFE_COLOR, RIGHT_MFE_LABEL } from './constants'
-
 import Label from './components/Label'
+
+import { RIGHT_MFE_COLOR, RIGHT_MFE_LABEL } from './constants'
 
 interface Props {
   emitter: EventsMap

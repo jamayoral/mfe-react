@@ -1,10 +1,11 @@
 import React from 'react'
+
 import { Box, Typography, Grid } from '@mui/material'
 import { createNanoEvents, EventsMap } from 'nanoevents'
 
-import { HORIZONTAL_MFE_COLOR, HORIZONTAL_MFE_LABEL } from './constants'
-
 import Label from './components/Label'
+
+import { HORIZONTAL_MFE_COLOR, HORIZONTAL_MFE_LABEL } from './constants'
 
 const Left = React.lazy(() => import('left/App'))
 const Right = React.lazy(() => import('right/App'))

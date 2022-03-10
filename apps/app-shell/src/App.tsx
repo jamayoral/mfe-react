@@ -1,11 +1,17 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from 'react-router-dom'
+
 import { Box } from '@mui/material'
 
-import { APP_SHELL_COLOR, APP_SHELL_LABEL } from './constants'
-
-import Nav from './components/Nav'
 import Label from './components/Label'
+import Nav from './components/Nav'
+
+import { APP_SHELL_COLOR, APP_SHELL_LABEL } from './constants'
 
 const Vertical = React.lazy(() => import('vertical/App'))
 const Horizontal = React.lazy(() => import('horizontal/App'))
