@@ -1,6 +1,6 @@
 # Right
 
-## ℹ️ Requirements
+## Requirements
 
 Requires Node JS version `14.17.0+`. Using `nvm`:
 
@@ -9,7 +9,7 @@ nvm install 14.17.0
 nvm use 14.17.0
 ```
 
-## 🏃‍♀️ Running the app locally
+## Running the app locally
 
 #### _Installing dependencies:_
 
@@ -22,7 +22,3 @@ yarn install
 ```
 yarn start
 ```
-
-## 🛠 Team and maintainers
-
-- Tag a Github team or individual contributor(s)
